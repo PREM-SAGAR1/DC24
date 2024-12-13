@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunnerForHooks
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 8.498 s <<< FAILURE! - in StepDefinitions.TestRunnerForHooks
+ #1(Check login functionality)  Time elapsed: 8.486 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://127.0.0.1:59485/devtools/browser/38dfa393-a6e8-44ec-bf04-968191da95a5
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'PREM-OPTIMUS', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+
+ #1(Check login functionality)  Time elapsed: 8.486 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://127.0.0.1:59485/devtools/browser/38dfa393-a6e8-44ec-bf04-968191da95a5
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'PREM-OPTIMUS', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+
+ #2(Check login functionality)  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NullPointerException
+
+ #2(Check login functionality)  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NullPointerException
+

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunnerr
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.003 s <<< FAILURE! - in StepDefinitions.TestRunnerr
+Check login is succesful with valid credentials(Test login functionality)  Time elapsed: 11.635 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://127.0.0.1:55293/devtools/browser/3e2f48f2-b5d2-496c-b6a9-edcef34a00d8
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'PREM-OPTIMUS', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+

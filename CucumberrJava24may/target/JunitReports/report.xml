@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.78" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Test login functionality" name="Check login is succesful with valid credentials - Example #1.1" time="11.524">
+<failure type="org.openqa.selenium.remote.http.ConnectionFailedException" message="Unable to establish websocket connection to http://127.0.0.1:55293/devtools/browser/3e2f48f2-b5d2-496c-b6a9-edcef34a00d8
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'PREM-OPTIMUS', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver">
+<![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://127.0.0.1:55293/devtools/browser/3e2f48f2-b5d2-496c-b6a9-edcef34a00d8
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'PREM-OPTIMUS', ip: '192.168.1.102', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:104)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:137)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:127)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.firefox.FirefoxDriver.maybeGetDevTools(FirefoxDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:441)
+	at StepDefinitions.LoginDemo_PF.user_is_navigated_to_the_home_page(LoginDemo_PF.java:71)
+	at ✽.user is navigated to the home page(file:///E:/march%20automation/selenium/june/CucumberrJava24may/src/test/resources/Features/LoginDemoo24.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+And user is on login page...................................................passed
+When user enters standard_user and secret_sauce.............................passed
+And user clicks on login....................................................passed
+Then user is navigated to the home page.....................................failed
+]]></system-out>
+</testcase>
+</testsuite>
