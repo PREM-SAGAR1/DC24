@@ -8,7 +8,7 @@ public class GI {
     
     System.out.println("iam commit and push");
     
-    System.out.println("heu");
+    System.out.println("heu  ");
 	}
 
 }
