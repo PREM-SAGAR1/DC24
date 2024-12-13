@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: stepDefinations.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.667 sec <<< FAILURE!
+Validate google search is working(feature to test google search functionality)  Time elapsed: 3.928 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'user is on google search engine' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("user is on google search engine")
+public void user_is_on_google_search_engine() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user enter a text in seatch box")
+public void user_enter_a_text_in_seatch_box() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("hits enter")
+public void hits_enter() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user is navigated to search results")
+public void user_is_navigated_to_search_results() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
